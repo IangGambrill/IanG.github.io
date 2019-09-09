@@ -1,0 +1,8 @@
+.top{
+    height: 146px;
+    width: 100%;
+    columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 100% auto;
+    position: fixed;
+    color: tomato;
+}
