@@ -78,15 +78,156 @@
 
 @media only screen and (max-width: 800px) {
     body{
-        background-color: red;
+        background-color: white;
+        }
+        .sidebar1{
+            grid-template-columns: 10px 10px;
+            background-color: gray;
+            display: grid;
+            height: 100vw;
+            width: 10vw;
+            margin-left: 5vw;
+            position: fixed;
+        }
+        .sidebar2{
+            grid-template-columns: 10vw;
+            background-color: gray;
+            display: grid;
+            height: 100vw;
+            width: 10vw;
+            margin-left: 82vw;
+            position: fixed
+        }
+        .title{
+            text-align:center;
+            line-height: .05em;
+        }
+        .author{
+            text-align:center;
+            line-height: .05em;
+            font-weight: bold;
+        }
+        .birthdeath{
+            text-align:center;
+            line-height: .05em;
+        }
+        .p1{
+            margin-left: 25vw;
+            margin-top: 10px;
+        }
+        .p2{
+            margin-left: 25vw;
+            margin-top: -140px;
+            text-align: left;
+        }
+        .p3{
+            margin-left: 65vw;
+            margin-top: 100px;
+        }
+        .p4{
+            margin-left: 65vw;
+            margin-top: -130px;
+            text-align: left;
+        }
+        .p5{
+            margin-left: 50vw;
+            margin-top: 200px;
+        }
+        .p6{
+            margin-left: 50vw;
+            margin-top: -140px;
+            text-align: left;
+        }
+        .p7{
+            margin-left: 20vw;
+            margin-top: 200px;
+        }
+        .circle{
+            margin-top: 10vw;
+            margin-left: 50vw;
+            width: 50px;
+            height: 50px;
+            border:5px solid #bbb;
+            border-radius:50%;
     }
+    
 }
 
 /*-----------------phone-------------------------*/
 
 @media only screen and (min-width: 800px) and (max-width: 1280px){
     body{
-        background-color: blue;
-        
+        background-color: white;
+        }
+        .sidebar1{
+            grid-template-columns: 10px 10px;
+            background-color: gray;
+            display: grid;
+            height: 100vw;
+            width: 10vw;
+            margin-left: 5vw;
+            position: fixed;
+        }
+        .sidebar2{
+            grid-template-columns: 10vw;
+            background-color: gray;
+            display: grid;
+            height: 100vw;
+            width: 10vw;
+            margin-left: 82vw;
+            position: fixed
+        }
+        .title{
+            text-align:center;
+            line-height: .05em;
+        }
+        .author{
+            text-align:center;
+            line-height: .05em;
+            font-weight: bold;
+        }
+        .birthdeath{
+            text-align:center;
+            line-height: .05em;
+        }
+        .p1{
+            margin-left: 50vw;
+            margin-top: 100px;
+        }
+        .p2{
+            margin-right: 50vw;
+            margin-top: 200px;
+            text-align: right;
+        }
+        .p3{
+            margin-left: 50vw;
+            margin-top: 100px;
+        }
+        .p4{
+            margin-right: 50vw;
+            margin-top: 200px;
+            text-align: right;
+        }
+        .p5{
+            margin-left: 50vw;
+            margin-top: 200px;
+        }
+        .p6{
+            margin-right: 50vw;
+            margin-top: 200px;
+            text-align: right;
+        }
+        .p7{
+            margin-left: 50vw;
+            margin-top: 200px;
+        }
+        .circle{
+            margin-top: 10vw;
+            margin-left: 50vw;
+            width: 50px;
+            height: 50px;
+            border:5px solid #bbb;
+            border-radius:50%;
+        }
     }
 }
